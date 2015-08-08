@@ -29,8 +29,7 @@
 * TrackingSubjectForm
 * TrackingSubjectShow (composite view, contains TrackingAttributesListsubview)
 * TrackingAttributesList (composite view, contains TrackingAttributesListItem subviews)
-* TrackingAttributesListItem
-* TrackingAttributeShow (composite view, contains DataPointsList subview)
+* TrackingAttributesListItem (composite view, contains DataPointsList subview)
 * DataPointsList(composite view, contains DataPointsListItem subviews)
 * DataPointsIndexItem
 
