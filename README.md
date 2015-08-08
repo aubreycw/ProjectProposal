@@ -32,9 +32,18 @@ Hamster Tracker is a general tracking app, which makes understanding the relatio
 ## Implementation Timeline
 
 ### Phase 1: User Authentication, Tracking Subject Creation (~1 day)
-I will implement user authentication (using the Rails pattern used at App Academy). By the end of this phase users will be able to sign in, sign up, and create new tracking subjects from a form on the webpage. I will have the app pushed to Heroku.
+I will implement user authentication (using the Rails pattern used at App Academy). 
+
+By the end of this phase users will be able to sign in, sign up, and create (and delete) tracking subjects from a form on the webpage. I will have the app pushed to Heroku.
 
 [Details][phase-one]
+
+### Phase 2: Adding and Viewing Subjects, Attributes, and Data Points (~2 days)
+I will add API routes and the necessary Backbone methods (routers, views, collections, and models) for users to create and delete tracking attributes and data points. 
+
+By the end of this phase users will be able to create, edit, delete, and view tracking subjects, tracking attributes, and data points in a single page Backbone app.
+
+[Details][phase-two]
 
 
 ### Bonus Features (TBD)

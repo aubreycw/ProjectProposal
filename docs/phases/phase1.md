@@ -8,7 +8,7 @@
 ### Controllers
 * UsersController (create, new)
 * SessionsController (create, new, destroy)
-* TrackingSubjectController (create, new, index)
+* TrackingSubjectController (create, new, edit, destroy, index)
 
 ### Views
 * users/new.html.erb
