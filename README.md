@@ -39,12 +39,37 @@ By the end of this phase users will be able to sign in, sign up, and create (and
 [Details][phase-one]
 
 ### Phase 2: Adding and Viewing Subjects, Attributes, and Data Points (~2 days)
-I will add API routes and the necessary Backbone methods (routers, views, collections, and models) for users to create and delete tracking attributes and data points. 
+I will add API routes and the necessary Backbone methods (routers, views, collections, and models) for users to create and delete tracking attributes and data points. I will use Bootstrap now and throughout the rest of the project. 
 
 By the end of this phase users will be able to create, edit, delete, and view tracking subjects, tracking attributes, and data points in a single page Backbone app.
 
 [Details][phase-two]
 
+### Phase 3: Implementing Basic Graphs (~2 days)
+I will change the Tracking Subject show page to contain a graph (replacing the list of tracking attributes with sub lists of thier data points). I will utilise javascripts D3 library for this stage of the project.
+
+By the end of this phase users will be able to view a graph with all of the data points for each attribute within a tracking subject, and will be able to toggle which of these attributes are visible.
+
+[Details][phase-three]
+
+### Phase 4: Add correlations table (~1 day)
+I will add a color coded table of correlations beside the graph in the Tracking subject view.
+
+By the end of this phase users will be able to see the correlations between each of the attributes for each tracking subect.
+
+[Details][phase-four]
+
+### Phase 5: Add Tracking Subject Sharing Abilities (~1 day)
+I will add graph sharing abilities.
+
+By the end of this phase users will be able to search for and select other users who will be allowed to read and/or contribute to specific graph subjects, and users will be able to view all tracking subjects they either own of have access to in their index page.
+
+[Details][phase-five]
+
+### Phase 6: Prettifying (~1-2 days)
+I will change bootstrap/css/javascript files to make the app more attractive, and will check that everything is working before moving on to bonus features.
+
+[Details][phase-six]
 
 ### Bonus Features (TBD)
 - [ ] Linear lines of best fit on graphs
@@ -53,5 +78,10 @@ By the end of this phase users will be able to create, edit, delete, and view tr
 - [ ] View attributes graphed against other attributes (instead of time)
 
 [phase-one]: ./docs/phases/phase1.md
+[phase-two]: ./docs/phases/phase2.md
+[phase-three]: ./docs/phases/phase3.md
+[phase-four]: ./docs/phases/phase4.md
+[phase-five]: ./docs/phases/phase5.md
+
 
 
