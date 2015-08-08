@@ -1,24 +1,26 @@
-# Flux-capacitr
+# Hamster Tracker
 
 [Heroku link][heroku]
 
-[heroku]: http://flux-capacitr.herokuapp.com
+<!-- TODO -->
+
+[heroku]: http://www.google.com
 
 ## Minimum Viable Product
-Flux-capacitr is a clone of Tumblr built on Rails and Backbone. Users can:
+Hamster Tracker is a general tracking app, which makes understanding the relationships between your tracked data easy. Users can:
 
 <!-- This is a Markdown checklist. Use it to keep track of your progress! -->
 
-- [x] Create accounts
-- [x] Create sessions (log in)
-- [x] Create blogs
-- [x] Create blog posts
-- [ ] View blogs and posts
-- [ ] Subscribe to blogs
-- [ ] View a feed of subscribed blogs
-- [ ] Tag blog posts
-- [ ] Search for blogs by title
-- [ ] Search for posts by tag
+- [ ] Create accounts
+- [ ] Create sessions (log in)
+- [ ] Create tracking subjects (hamster health)
+- [ ] Create tracking subject attributes (weight, shinyness, walnuts eaten)
+- [ ] Choose range and type of attributes (weight is a float, shinyness is an int from 0 to 5)
+- [ ] Enter data points
+- [ ] View a graph of each tracking subject (against time)
+- [ ] Change which attributes are displayed on the graph
+- [ ] View a table of correlations for each tracking subject
+- [ ] Choose which other users can view and add data to thier tracking subjects
 
 ## Design Docs
 * [View Wireframes][views]
@@ -73,15 +75,10 @@ collections, but they will fetch from the new `search` routes.
 [Details][phase-five]
 
 ### Bonus Features (TBD)
-- [ ] "Like" button and counter for posts
-- [ ] Custom blog urls
-- [ ] Pagination/infinite scroll
-- [ ] Activity history (e.g. likes, reblogs, taggings)
-- [ ] Post types (image posts, quote posts, etc)
-- [ ] Reblogging
-- [ ] Multiple sessions/session management
-- [ ] User avatars
-- [ ] Typeahead search bar
+- [ ] Linear lines of best fit on graphs
+- [ ] Non linear options for lines of best fit
+- [ ] Automatic choosing of best function for line of best fit
+- [ ] View attributes graphed against other attributes (instead of time)
 
 [phase-one]: ./docs/phases/phase1.md
 [phase-two]: ./docs/phases/phase2.md
