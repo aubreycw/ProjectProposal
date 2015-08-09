@@ -1,41 +1,37 @@
 # Schema Information
 
-## blogs
+## TrackingSubject
 column name | data type | details
 ------------|-----------|-----------------------
 id          | integer   | not null, primary key
-owner_id    | integer   | not null, foreign key (references users)
-title       | string    | not null
+name        | string    | not null
+public      | boolean   | default true, 
 
-## followings
-column name | data type | details
-------------|-----------|-----------------------
-id          | integer   | not null, primary key
-blog_id     | integer   | not null, foreign key (references blogs)
-follower_id | integer   | not null, foreign key (references users)
+## TrackingAttribute
+column name         | data type | details
+--------------------|-----------|-----------------------
+id                  | integer   | not null, primary key
+tracking_subject_id | integer   | not null, foreign key (references tracking subjects)
+name                | string    | not null
+notes               | text      | 
 
-## posts
-column name | data type | details
-------------|-----------|-----------------------
-id          | integer   | not null, primary key
-author_id   | integer   | not null, foreign key (references users)
-title       | string    | not null
-body        | string    |
+## DataPoint
+column name           | data type | details
+----------------------|-----------|-----------------------
+id                    | integer   | not null, primary key
+tracking_attribute_id | integer   | not null, foreign key (references tracking attributes)
+value                 | float     | not null
+time                  | datetime  | not null
 
-## tags
-column name | data type | details
-------------|-----------|-----------------------
-id          | integer   | not null, primary key
-label       | string    | not null, unique
+## TrackingSubjectAccess
+column name         | data type | details
+--------------------|-----------|-----------------------
+id                  | integer   | not null, primary key
+tracking_subject_id | integer   | not null 
+user_id             | integer   | not null
+can_write           | boolean   | default false
 
-## taggings
-column name | data type | details
-------------|-----------|-----------------------
-id          | integer   | not null, primary key
-post_id     | integer   | not null, foreign key (references posts)
-tag_id      | integer   | not null, foreign key (references tags)
-
-## users
+## User
 column name     | data type | details
 ----------------|-----------|-----------------------
 id              | integer   | not null, primary key
