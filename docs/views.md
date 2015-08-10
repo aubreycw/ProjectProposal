@@ -23,4 +23,4 @@
 [subject-index]: ./wireframes/sbi.jpg
 [add-data]: ./wireframes/ad.jpg
 [graph-show]: ./wireframes/gs.jpg
-[user-ad]: ./wireframes/ua.jpg
+[user-add]: ./wireframes/ua.jpg
